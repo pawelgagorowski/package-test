@@ -1,5 +1,5 @@
 export default interface InfoReturnType {
-    name: string;
+    name: string,
     email: string,
     surname: string
 }
