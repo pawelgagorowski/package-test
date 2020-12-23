@@ -1,4 +1,4 @@
-export default interface HardreturnType {
+export default interface InfoReturnType {
     name: string;
     email: string,
     surname: string
