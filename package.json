@@ -1,0 +1,25 @@
+{
+  "name": "@pawelgagorowski/testsdfsfd",
+  "version": "1.0.3",
+  "description": "My npm package written in TS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node'  ./src/index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawelgagorowski/package-test.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^2.9.2"
+  },
+  "bugs": {
+    "url": "https://github.com/pawelgagorowski/package-test/issues"
+  },
+  "homepage": "https://github.com/pawelgagorowski/package-test#readme"
+}
